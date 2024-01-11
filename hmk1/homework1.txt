@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class NumberRangePrinter {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Input first number
+        System.out.print("Enter the first number: ");
+        int firstNumber = scanner.nextInt();
+
+        // Input second number
+        System.out.print("Enter the second number: ");
+        int secondNumber = scanner.nextInt();
+
+        // Close the scanner to prevent resource leak
+        scanner.close();
+
+        // Validate that the second number is greater than the first 
+number
+        if (secondNumber <= firstNumber) {
+            System.out.println("Please enter a second number greater 
+than the first number.");
+            return;
+        }
+
+        // Print numbers between the two inputs
+        System.out.println("Numbers between " + firstNumber + " and " 
++ secondNumber + ":");
+        for (int i = firstNumber + 1; i < secondNumber; i++) {
+            System.out.print(i + " ");
+        }
+    }
+}
+
