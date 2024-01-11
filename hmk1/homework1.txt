@@ -23,11 +23,13 @@ than the first number.");
             return;
         }
 
-        // Print numbers between the two inputs
-        System.out.println("Numbers between " + firstNumber + " and " 
-+ secondNumber + ":");
+        // Print even numbers between the two inputs
+        System.out.println("Even numbers between " + firstNumber + " 
+and " + secondNumber + ":");
         for (int i = firstNumber + 1; i < secondNumber; i++) {
-            System.out.print(i + " ");
+            if (i % 2 == 0) {
+                System.out.print(i + " ");
+            }
         }
     }
 }
