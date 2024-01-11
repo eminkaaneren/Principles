@@ -28,4 +28,35 @@ warning: You appear to have cloned an empty repository.
 
 STEP C
 
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles [master]>--<s001>-
+-<%>- nano README.md
+
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles [master*]>--<s001>-
+-<%>- git add README.md
+
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles [master*]>--<s001>-
+-<1:%>- git commit -m "Add README file"
+[master 06dea5f] Add README file
+ 1 file changed, 19 insertions(+)
+ create mode 100644 README.md
+
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles [master]>--<s001>-
+-<%>- git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.13 KiB | 1.13 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:eminkaaneren/Principles.git
+   bafeec9..f2c1587  master -> master
+
+Using markdown, I've added [Visit Department of Software 
+Engineering](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi) to the README.md
+
+STEP D
+Class files, log files, BlueJ file, mobile tools for java, package files and virtual machine crash are all ignored.
+
+
+
 
