@@ -1,0 +1,17 @@
+STEP A
+git config --global user.name eminkaaneren
+git config --global user.email eminkaaneren@hotmail.com
+git config --global core.editor nano
+
+For verifying:
+git config user.name
+-output: "eminkaaneren"
+git config user.email
+-output: "eminkaaneren@hotmail.com"
+git config core.editor
+-output: "nano"
+
+STEP B
+
+
+
