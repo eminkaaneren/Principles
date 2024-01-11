@@ -15,34 +15,18 @@ public class NumberRangePrinter {
         // Close the scanner to prevent resource leak
         scanner.close();
 
-        // Validate that the second number is greater than the first 
-number
+        // Validate that the second number is greater than the first number
         if (secondNumber <= firstNumber) {
-            System.out.println("Please enter a second number greater 
-than the first number.");
+            System.out.println("Please enter a second number greater than the first number.");
             return;
         }
 
-<<<<<<< HEAD
         // Print even numbers between the two inputs
-        System.out.println("Even numbers between " + firstNumber + " 
-and " + secondNumber + ":");
+        System.out.println("Even numbers between " + firstNumber + " and " + secondNumber + ":");
         for (int i = firstNumber + 1; i < secondNumber; i++) {
             if (i % 2 == 0) {
-=======
-        // Print odd numbers between the two inputs
-        System.out.println("Odd numbers between " + firstNumber + " 
-and " + secondNumber + ":");
-        printOddNumbersInRange(firstNumber, secondNumber);
-    }
-
-    private static void printOddNumbersInRange(int start, int end) {
-        for (int i = start + 1; i < end; i++) {
-            if (i % 2 != 0) {
->>>>>>> feature-2
                 System.out.print(i + " ");
             }
         }
     }
 }
-
