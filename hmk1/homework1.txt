@@ -17,6 +17,7 @@ public class NumberRangePrinter {
 
         // Validate that the second number is greater than the first number
         if (secondNumber <= firstNumber) {
+<<<<<<< HEAD
             System.out.println("Please enter a second number greater than 
 the first number.");
             return;
@@ -25,9 +26,16 @@ the first number.");
         // Print numbers between the two inputs
         System.out.println("Numbers between " + firstNumber + " and " + 
 secondNumber + ":");
+=======
+            System.out.println("Please enter a second number greater than the first number.");
+            return;
+        }
+
+        // Print even numbers between the two inputs
+        System.out.println("Even numbers between " + firstNumber + " and " + secondNumber + ":");
+>>>>>>> feature-3
         for (int i = firstNumber + 1; i < secondNumber; i++) {
             System.out.print(i + " ");
         }
     }
 }
-
