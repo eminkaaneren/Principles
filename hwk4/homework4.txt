@@ -12,6 +12,20 @@ git config core.editor
 -output: "nano"
 
 STEP B
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects [main*]>-    -<s001>-
+-<%>- git clone git@github.com:eminkaaneren/Principles.git
+Cloning into 'Principles'...
+warning: You appear to have cloned an empty repository.
 
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles [master]>--<s001>-
+-<%>- ls -a
+.    ..   .git hwk4
+
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles [master]>--<s001>-
+-<%>- ls -a .git/
+.           FETCH_HEAD  config      hooks       info        objects
+..          HEAD        description index       logs        refs
+
+STEP C
 
 
