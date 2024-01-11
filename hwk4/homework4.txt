@@ -57,6 +57,257 @@ Engineering](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-v
 STEP D
 Class files, log files, BlueJ file, mobile tools for java, package files and virtual machine crash are all ignored.
 
+STEP E
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles [master]>--<s001>-
+-<%>- git branch feature-1
+
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles [master]>--<s001>-
+-<%>- git checkout feature-1
+Switched to branch 'feature-1'
+
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles [feature-1]>--<s001>-
+-<%>- mkdir hmk1
+
+STEP F
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles [feature-1]>--<s001>-
+-<%>- cd hmk1
+
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles/hmk1 [feature-1]>--<s001>-
+-<%>- nano homework1.txt
+
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles/hmk1 [feature-1*]>--<s001>-
+-<%>- git add homework1.txt               
+
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles/hmk1 [feature-1*]>--<s001>-
+-<%>- git commit -m 'satisfying requirement one'
+[feature-1 94eeab4] satisfying requirement one
+ 1 file changed, 34 insertions(+)
+ create mode 100644 hmk1/homework1.txt
 
 
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles/hmk1 [feature-1]>--<s001>-
+-<128:%>- git push --set-upstream origin feature-1
+Enumerating objects: 23, done.
+Counting objects: 100% (23/23), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (23/23), 6.18 KiB | 6.18 MiB/s, done.
+Total 23 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+remote: 
+remote: Create a pull request for 'feature-1' on GitHub by visiting:
+remote:      https://github.com/eminkaaneren/Principles/pull/new/feature-1
+remote: 
+To github.com:eminkaaneren/Principles.git
+ * [new branch]      feature-1 -> feature-1
+Branch 'feature-1' set up to track remote branch 'feature-1' from 'origin'.
+
+Feature-1 branch has all the previous commits from the main branch, the feature-1 has homework1.txt file under it. The main branch doesn't have hmk1 directory because it is not merged with the feature-1 branch yet.
+
+STEP G
+-<1:%>- git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles [master]>--<s001>-
+-<%>- git merge feature-1
+Updating d412492..94eeab4
+Fast-forward
+ hmk1/homework1.txt | 34 ++++++++++++++++++++++++++++++++++
+ 1 file changed, 34 insertions(+)
+ create mode 100644 hmk1/homework1.txt
+
+STEP H
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles [master]>--<s001>-
+-<%>- git branch feature-2
+
+STEP I
+
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles [master]>--<s001>-
+-<%>- git branch feature-3
+
+STEP J
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles [master]>--<s001>-
+-<%>- git checkout feature-2
+Switched to branch 'feature-2'
+
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles/hmk1 [feature-2]>--<s001>-
+-<%>- nano homework1.txt
+
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles/hmk1 [feature-2*]>--<s001>-
+-<%>- git add homework1.txt
+
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles/hmk1 [feature-2*]>--<s001>-
+-<%>- git commit -m 'satisfying requirement change two'
+[feature-2 001ee98] satisfying requirement change two
+ 1 file changed, 11 insertions(+), 5 deletions(-)
+
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles/hmk1 [feature-2]>--<s001>-
+-<128:%>- git push --set-upstream origin feature-2         
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 834 bytes | 834.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'feature-2' on GitHub by visiting:
+remote:      https://github.com/eminkaaneren/Principles/pull/new/feature-2
+remote: 
+To github.com:eminkaaneren/Principles.git
+ * [new branch]      feature-2 -> feature-2
+Branch 'feature-2' set up to track remote branch 'feature-2' from 'origin'.
+
+All the changes i've made:
+
+eminkaaneren
+eminkaaneren
+committed
+2 minutes ago
+001ee98
+
+
+satisfying requirement one
+eminkaaneren
+eminkaaneren
+committed
+19 minutes ago
+94eeab4
+
+
+setting up gitignore
+eminkaaneren
+eminkaaneren
+committed
+1 hour ago
+d412492
+
+
+Modified README file
+eminkaaneren
+eminkaaneren
+committed
+1 hour ago
+c4c3f31
+
+
+Merge branch 'master' of github.com:eminkaaneren/Principles
+eminkaaneren
+eminkaaneren
+committed
+1 hour ago
+f2c1587
+
+
+Add README file
+eminkaaneren
+eminkaaneren
+committed
+1 hour ago
+06dea5f
+
+
+Update homework4.txt
+eminkaaneren
+eminkaaneren
+committed
+1 hour ago
+Verified
+bafeec9
+
+
+Create homework4.txt
+eminkaaneren
+eminkaaneren
+committed
+1 hour ago
+
+STEP K
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles/hmk1 [feature-2]>--<s001>-
+-<%>- git checkout feature-3
+Switched to branch 'feature-3'
+
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles/hmk1 [feature-3]>--<s001>-
+-<%>- nano homework1.txt
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles/hmk1 [feature-3*]>--<s001>-
+-<%>- git add homework1.txt
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles/hmk1 [feature-3*]>--<s001>-
+-<%>- git commit -m 'satisfying requirement change three'
+[feature-3 962c497] satisfying requirement change three
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles/hmk1 [feature-3]>--<s001>-
+-<128:%>-  git push --set-upstream origin feature-3
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 640 bytes | 640.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'feature-3' on GitHub by visiting:
+remote:      https://github.com/eminkaaneren/Principles/pull/new/feature-3
+remote: 
+To github.com:eminkaaneren/Principles.git
+ * [new branch]      feature-3 -> feature-3
+Branch 'feature-3' set up to track remote branch 'feature-3' from 'origin'.
+
+STEP I
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles/hmk1 [master]>--<s001>-
+-<%>- git merge feature-2
+
+
+STEP M
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles/hmk1 [master]>--<s001>-
+-<%>- git merge feature-3
+
+difference:
+-<1:%>- git diff             
+
+ +            return;
+ +        }
+ +
+ +        // Print numbers between the two inputs
+ +        System.out.println("Numbers between " + firstNumber + " and " + 
+ +secondNumber + ":");
+++=======
++             System.out.println("Please enter a second number greater than the first number.");
++             return;
++         }
++ 
++         // Print even numbers between the two inputs
+ondNumber + ":");
+++>>>>>>> feature-3
+          for (int i = firstNumber + 1; i < secondNumber; i++) {
+ -            if (i % 2 == 0) {
+ -                System.out.print(i + " ");
+ -            }
+ +            System.out.print(i + " ");
+          }
+      }
+  }
+
+
+STEP N
+
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles [feature-3]>- -<s001>-
+-<%>- git push origin master
+Everything up-to-date
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles [feature-3]>- -<s001>-
+-<%>- git push origin feature-1
+Everything up-to-date
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles [feature-3]>- -<s001>-
+-<%>- git push origin feature-2
+Everything up-to-date
+-<eminkaaneren@Emin-Kaans-MacBook-Air.local:~/IdeaProjects/Principles [feature-3]>- -<s001>-
+-<%>- git push origin feature-3
+Everything up-to-date
+
+STEP O
+done.
+
+STEP P
+https://github.com/eminkaaneren/Principles
 
