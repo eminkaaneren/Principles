@@ -17,3 +17,6 @@ For contact:
 20COMP1032@isik.edu.tr
 20COMP1031@isik.edu.tr
 
+[Visit Department of Software 
+Engineering](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi)
+
